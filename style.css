@@ -18,11 +18,11 @@ header .container {
 
 
 header {
-    background-color: #874b3d ; /* Light brownish block color */
+    background-color: #adcfe0 ; /* Light brownish block color */
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #ed775c ; /* Keeping the accent color */
+    border-bottom: 3px solid #adcfe0 ; /* Keeping the accent color */
     width: 100%;
 }
 
@@ -34,7 +34,7 @@ header a {
 }
 
 header a:hover {
-    color: #bcd8e6;
+    color: #adcfe0;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color: #bcd8e6 ; /* Light brownish block color */
+    background-color: #adcfe0 ; /* Light brownish block color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
