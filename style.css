@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color:  #ad6f61; /* light peach background */
+    background-color:  #adcfe0; /* light blue background */
     color: #333;
 }
 
@@ -34,7 +34,7 @@ header a {
 }
 
 header a:hover {
-    color: #874b3d;
+    color: #bcd8e6;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color: #f0b9b9 ; /* Light brownish block color */
+    background-color: #bcd8e6 ; /* Light brownish block color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
@@ -105,7 +105,8 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(232, 190, 190, 0.5); /* Using the rgba equivalent of #e8bebe */
+    box-shadow: 0 2px 4px rgba(173, 207, 224, 0.5);           /*light blue equivalent*/
+
 
 }
 
@@ -135,13 +136,13 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(233, 195, 195, 0.5); /* Using the rgba equivalent of #e9c3c3 */
+    box-shadow: 0 2px 4px rgba(173, 207, 224, 0.5);           /*light blue equivalent*/; 
 }
 
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #e8bebe; /* Keeping the accent color */
+    color: #adcfe0; /* Keeping the accent color */
 }
 
 .project-list {
@@ -151,7 +152,7 @@ header nav li {
 }
 
 .project-item {
-    background-color:  #e8bebe; /* Keeping a lighter background for project items */
+    background-color:  #adcfe0; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(233, 195, 195, 0.5); /* Using the rgba equivalent of #e9c3c3 */
@@ -202,7 +203,7 @@ header nav li {
 }
 
 footer {
-    background-color: #e8bebe ; /* Light pink block color */
+    background-color: #adcfe0 ; /* Light pink block color */
     color: #333; /* Dark text for contrast */
     text-align: center;
     padding: 20px 0;
