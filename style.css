@@ -152,7 +152,7 @@ header nav li {
 }
 
 .project-item {
-    background-color:  #d1d9e8; /* Keeping a lighter background for project items */
+    background-color:  #86a4db; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(134, 164, 219, 0.5);/* Using the rgba equivalent of #86a4db */  
