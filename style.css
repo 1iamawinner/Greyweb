@@ -136,7 +136,7 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(209, 217, 232, 0.5); /* Using the rgba equivalent of #d1d9e8 */           /*light blue equivalent*/; 
+    box-shadow: 0 2px 4px rgba(188, 203, 232, 0.5); /* Using the rgba equivalent of #bccbe8 */    
 }
 
 .skill-item .icon {
@@ -155,7 +155,7 @@ header nav li {
     background-color:  #d1d9e8; /* Keeping a lighter background for project items */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(209, 217, 232, 0.5); /* Using the rgba equivalent of #d1d9e8 */
+    box-shadow: 0 2px 4px rgba(188, 203, 232, 0.5); /* Using the rgba equivalent of #bccbe8 */  
 
 .project-info h3 {
     margin-top: 0;
