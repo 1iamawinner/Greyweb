@@ -67,7 +67,7 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color: #adcfe0 ; /* Light brownish block color */
+    background-color: #d1d9e8 ; /* Light brownish block color */
     color: #333; /* Ensuring text is readable on the new background */
 }
 
@@ -142,7 +142,7 @@ header nav li {
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #adcfe0; /* Keeping the accent color */
+    color: #d1d9e8; /* Keeping the accent color */
 }
 
 .project-list {
