@@ -9,25 +9,24 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    
     padding: 20px 0;
 }
-header .container {
-  overflow: visible; /* Allow content to be visible outside the container */
-}
 
+header .container {
+    overflow: visible; /* Allow content to be visible outside the container */
+}
 
 header {
     background-color: #adcfe0 ; /* Light brownish block color */
     color: #333; /* Dark text for contrast */
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: 3px solid #030f82 ; /* Keeping the accent color */
+    border-bottom: 3px solid #030f82 ; /* Accent color */
     width: 100%;
 }
 
 header a {
-    color: #333; /* Dark text for contrast */
+    color: #333;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -67,8 +66,8 @@ header nav li {
 .contact {
     padding: 40px 0;
     margin-bottom: 30px;
-    background-color: #d1d9e8 ; /* Light brownish block color */
-    color: #333; /* Ensuring text is readable on the new background */
+    background-color: #d1d9e8;
+    color: #333;
 }
 
 .hero .container,
@@ -105,9 +104,7 @@ header nav li {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(173, 207, 224, 0.5);           /*light blue equivalent*/
-
-
+    box-shadow: 0 2px 4px rgba(173, 207, 224, 0.5);
 }
 
 .about-text {
@@ -118,7 +115,7 @@ header nav li {
 
 .skills h2,
 .projects h2,
-.contact h2 
+.contact h2,
 .certificates h2 {
     color: #333;
     margin-bottom: 20px;
@@ -136,13 +133,13 @@ header nav li {
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(134, 164, 219, 0.5); /* Using the rgba equivalent of #86a4db */    
+    box-shadow: 0 2px 4px rgba(134, 164, 219, 0.5);
 }
 
 .skill-item .icon {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #d1d9e8; /* Keeping the accent color */
+    color: #d1d9e8;
 }
 
 .project-list {
@@ -152,10 +149,30 @@ header nav li {
 }
 
 .project-item {
-    background-color:  #86a4db; /* Keeping a lighter background for project items */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #86a4db;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(134, 164, 219, 0.5);/* Using the rgba equivalent of #86a4db */  
+    box-shadow: 0 2px 4px rgba(134, 164, 219, 0.5);
+}
+
+.project-item .project-info {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.project-item .project-image {
+    flex: 1;
+}
+
+.project-item .project-image img {
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
 
 .project-info h3 {
     margin-top: 0;
@@ -174,28 +191,6 @@ header nav li {
     line-height: 1.5;
 }
 
-.project-item.water-level-project {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.project-item.water-level-project .project-info {
-    flex: 2;
-    padding-right: 20px;
-}
-
-.project-item.water-level-project .project-image {
-    flex: 1;
-}
-
-.project-item.water-level-project .project-image img {
-    width: 180px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-}
-
 .contact p {
     text-align: center;
     font-size: 1.1em;
@@ -203,19 +198,13 @@ header nav li {
 }
 
 footer {
-    background-color: #adcfe0 ; /* Light pink block color */
-    color: #333; /* Dark text for contrast */
+    background-color: #adcfe0;
+    color: #333;
     text-align: center;
     padding: 20px 0;
     position: relative;
     margin-top: 30px;
 }
-
- 
-
-}
-
-*/
 
 footer .container p {
     margin: 0;
@@ -255,26 +244,40 @@ footer .container p {
     .project-list {
         grid-template-columns: 1fr;
     }
+
+    /* Additional responsive project-item styling */
+    .project-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-item .project-info {
+        padding-right: 0;
+    }
+
+    .project-item .project-image img {
+        margin: 20px 0;
+    }
 }
 
 .fade-in {
-    opacity: 1; /* Set opacity to 1 by default, effectively removing the fade-in */
-    /* transition: opacity 0.5s ease-in-out; */ /* Remove the transition */
+    opacity: 1;
 }
 
 .fade-in.active {
-    opacity: 1; /* Keep it at 1 */
-}  
+    opacity: 1;
+}
+
 .wave-top-right {
-  width: 100%;
-  height: 100px; /* adjust height if needed */
-  overflow: hidden;
-  line-height: 0;
-  position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    line-height: 0;
+    position: relative;
 }
 
 .wave-top-right svg {
-  width: 100%;
-  height: 100%;
-  display: block;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
