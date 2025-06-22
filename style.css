@@ -143,9 +143,11 @@ header nav li {
 }
 
 .project-list {
-  display: flex;
+display: flex;
+flex-direction: column;
 gap: 30px;
-flex-wrap: wrap;
+}
+
 
 }
 
@@ -282,10 +284,4 @@ footer .container p {
     height: 100%;
     display: block;
 }
-.left-column,
-.right-column {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    flex: 1;
-}
+
