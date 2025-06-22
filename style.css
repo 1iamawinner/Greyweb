@@ -143,9 +143,10 @@ header nav li {
 }
 
 .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
+  display: flex;
+gap: 30px;
+flex-wrap: wrap;
+
 }
 
 .project-item {
@@ -280,4 +281,11 @@ footer .container p {
     width: 100%;
     height: 100%;
     display: block;
+}
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
 }
